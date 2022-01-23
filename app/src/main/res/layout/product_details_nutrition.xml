@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tab_nutrition"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/product_details_nutrition_left_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--    -->
+
+    <!--    -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/product_details_nutrition_right_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--    -->
+
+    <TextView
+        android:id="@+id/product_details_nutrition_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:text="@string/product_details_nutrition_title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/product_details_nutrition_left_guideline"
+        app:layout_constraintRight_toLeftOf="@id/product_details_nutrition_right_guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/product_details_nutrition_fat_row"
+        android:layout_width="0dp"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="@id/product_details_nutrition_left_guideline"
+        app:layout_constraintRight_toLeftOf="@id/product_details_nutrition_right_guideline"
+        app:layout_constraintTop_toBottomOf="@id/product_details_nutrition_title">
+
+        <View
+            android:id="@+id/product_details_nutrition_fat_level"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circle"/>
+
+        <TextView
+            android:id="@+id/product_details_nutrition_fat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/product_details_nutrition_satured_fat_row"
+        android:layout_width="0dp"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="@id/product_details_nutrition_left_guideline"
+        app:layout_constraintRight_toLeftOf="@id/product_details_nutrition_right_guideline"
+        app:layout_constraintTop_toBottomOf="@id/product_details_nutrition_fat_row">
+
+        <View
+            android:id="@+id/product_details_nutrition_satured_fat_level"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circle"/>
+
+        <TextView
+            android:id="@+id/product_details_nutrition_satured_fat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/product_details_nutrition_sugar_row"
+        android:layout_width="0dp"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="@id/product_details_nutrition_left_guideline"
+        app:layout_constraintRight_toLeftOf="@id/product_details_nutrition_right_guideline"
+        app:layout_constraintTop_toBottomOf="@id/product_details_nutrition_satured_fat_row">
+
+        <View
+            android:id="@+id/product_details_nutrition_sugar_level"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circle"/>
+
+        <TextView
+            android:id="@+id/product_details_nutrition_sugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/product_details_nutrition_salt_row"
+        android:layout_width="0dp"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="@id/product_details_nutrition_left_guideline"
+        app:layout_constraintRight_toLeftOf="@id/product_details_nutrition_right_guideline"
+        app:layout_constraintTop_toBottomOf="@id/product_details_nutrition_sugar_row">
+
+        <View
+            android:id="@+id/product_details_nutrition_salt_level"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circle"/>
+
+        <TextView
+            android:id="@+id/product_details_nutrition_salt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

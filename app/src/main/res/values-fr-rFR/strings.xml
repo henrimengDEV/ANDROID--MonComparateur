@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Mon comparateur</string>
+    <string name="product_barcode">Code-barres : %1$s</string>
+    <string name="product_quantity">Quantité: %1$s</string>
+    <string name="product_ingredients">Ingrédients : %1$s</string>
+    <string name="product_seller_countries">Vendu en: %1$s</string>
+    <string name="product_allergies">Substances allergènes: %1$s</string>
+    <string name="product_additives">Additifs: %1$s</string>
+    <string name="product_details_nutrition_title">Repère nutritionnels pour 100g</string>
+    <string name="tab_summary">Fiche</string>
+    <string name="tab_array">Tableau</string>
+    <string name="tab_nutrition">Nutrition</string>
+    <string name="energies">Énergie</string>
+    <string name="fat">Matières grasses</string>
+    <string name="glucides">Glucides</string>
+    <string name="satured_fat">dont Acides gras saturés</string>
+    <string name="sugar">dont Sucres</string>
+    <string name="fibre">Fibres alimentaires</string>
+    <string name="prot">Protéines</string>
+    <string name="salt">Sel</string>
+    <string name="col_portion">Par part</string>
+    <string name="col_100g">Pour 100g</string>
+    <string name="sodium">Sodium</string>
+</resources>

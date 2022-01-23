@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tab_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+
+        <ImageView
+            android:id="@+id/product_details_img"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--    -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/product_details_left_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/product_details_img" />
+        <!--    -->
+
+        <TextView
+            android:id="@+id/product_details_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/product_details_left_guideline"
+            app:layout_constraintTop_toBottomOf="@id/product_details_img" />
+
+        <ImageView
+            android:id="@+id/product_details_nutriscore_img"
+            android:layout_width="78dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/nutriscore_a"
+            app:layout_constraintRight_toRightOf="@id/product_details_right_guideline"
+            app:layout_constraintTop_toBottomOf="@id/product_details_img" />
+
+        <TextView
+            android:id="@+id/product_details_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintLeft_toRightOf="@id/product_details_left_guideline"
+            app:layout_constraintTop_toBottomOf="@id/product_details_name" />
+
+        <TextView
+            android:id="@+id/product_details_barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toRightOf="@id/product_details_left_guideline"
+            app:layout_constraintTop_toBottomOf="@id/product_details_brand" />
+
+        <TextView
+            android:id="@+id/product_details_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toRightOf="@id/product_details_left_guideline"
+            app:layout_constraintTop_toBottomOf="@id/product_details_barcode" />
+
+        <TextView
+            android:id="@+id/product_details_seller_countries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toRightOf="@id/product_details_left_guideline"
+            app:layout_constraintTop_toBottomOf="@id/product_details_quantity" />
+
+        <TextView
+            android:id="@+id/product_details_ingredients"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toRightOf="@id/product_details_left_guideline"
+            app:layout_constraintRight_toLeftOf="@+id/product_details_right_guideline"
+            app:layout_constraintTop_toBottomOf="@id/product_details_seller_countries" />
+
+        <TextView
+            android:id="@+id/product_details_allergies"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toRightOf="@id/product_details_left_guideline"
+            app:layout_constraintRight_toLeftOf="@+id/product_details_right_guideline"
+            app:layout_constraintTop_toBottomOf="@id/product_details_ingredients" />
+
+        <TextView
+            android:id="@+id/product_details_additives"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toRightOf="@id/product_details_left_guideline"
+            app:layout_constraintRight_toLeftOf="@+id/product_details_right_guideline"
+            app:layout_constraintTop_toBottomOf="@id/product_details_allergies" />
+
+        <!--    -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/product_details_right_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="20dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/product_details_img" />
+        <!--    -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

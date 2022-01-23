@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TableLayout
+        android:id="@+id/tab_array"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <com.example.my_first_app.element.TableCellView
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:text="@string/col_100g"
+                android:textAlignment="center"
+                app:border="left" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:text="@string/col_portion"
+                android:textAlignment="center"
+                app:border="left" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.example.my_first_app.element.TableCellView
+                android:layout_weight="1"
+                android:text="@string/energies"
+                app:border="top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_energies_100g"
+                android:textAlignment="center"
+                app:border="left|top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_energies_portion"
+                android:textAlignment="center"
+                app:border="left|top" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.example.my_first_app.element.TableCellView
+                android:layout_weight="1"
+                android:text="@string/fat"
+                app:border="top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_fat_100g"
+                android:textAlignment="center"
+                app:border="left|top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_fat_portion"
+                android:textAlignment="center"
+                app:border="left|top" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.example.my_first_app.element.TableCellView
+                android:layout_weight="1"
+                android:text="@string/satured_fat"
+                app:border="top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_satured_fat_100g"
+                android:textAlignment="center"
+                app:border="left|top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_satured_fat_portion"
+                android:textAlignment="center"
+                app:border="left|top" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.example.my_first_app.element.TableCellView
+                android:layout_weight="1"
+                android:text="@string/glucides"
+                app:border="top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_glucides_100g"
+                android:textAlignment="center"
+                app:border="left|top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_glucides_portion"
+                android:textAlignment="center"
+                app:border="left|top" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.example.my_first_app.element.TableCellView
+                android:layout_weight="1"
+                android:text="@string/sugar"
+                app:border="top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_sugar_100g"
+                android:textAlignment="center"
+                app:border="left|top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_sugar_portion"
+                android:textAlignment="center"
+                app:border="left|top" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.example.my_first_app.element.TableCellView
+                android:layout_weight="1"
+                android:text="@string/fibre"
+                app:border="top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_fibre_100g"
+                android:textAlignment="center"
+                app:border="left|top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_fibre_portion"
+                android:textAlignment="center"
+                app:border="left|top" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.example.my_first_app.element.TableCellView
+                android:layout_weight="1"
+                android:text="@string/prot"
+                app:border="top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_prot_100g"
+                android:textAlignment="center"
+                app:border="left|top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_prot_portion"
+                android:textAlignment="center"
+                app:border="left|top" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.example.my_first_app.element.TableCellView
+                android:layout_weight="1"
+                android:text="@string/salt"
+                app:border="top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_salt_100g"
+                android:textAlignment="center"
+                app:border="left|top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_salt_portion"
+                android:textAlignment="center"
+                app:border="left|top" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.example.my_first_app.element.TableCellView
+                android:layout_weight="1"
+                android:text="@string/sodium"
+                app:border="top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_sodium_100g"
+                android:textAlignment="center"
+                app:border="left|top" />
+
+            <com.example.my_first_app.element.TableCellView
+                android:id="@+id/product_sodium_portion"
+                android:textAlignment="center"
+                app:border="left|top" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

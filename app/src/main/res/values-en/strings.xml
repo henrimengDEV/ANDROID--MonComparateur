@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">OpenFoodFacts</string>
+    <string name="product_barcode">Barcode: %1$s</string>
+    <string name="product_quantity">Quantity: %1$s</string>
+    <string name="product_ingredients">Ingredients : %1$s</string>
+    <string name="product_seller_countries">Sold in: %1$s</string>
+    <string name="product_allergies">Allergies: %1$s</string>
+    <string name="product_additives">Additives: %1$s</string>
+    <string name="product_details_nutrition_title">Nutritional benchmarks for 100g</string>
+    <string name="tab_summary">Summary</string>
+    <string name="tab_array">Array</string>
+    <string name="tab_nutrition">Nutrition</string>
+    <string name="energies">Energies</string>
+    <string name="fat">Fat</string>
+    <string name="glucides">Glucides</string>
+    <string name="satured_fat">Satured fat</string>
+    <string name="sugar">Sugar added</string>
+    <string name="fibre">Dietary fiber</string>
+    <string name="prot">Protein</string>
+    <string name="salt">Salt</string>
+    <string name="col_portion">Per portion</string>
+    <string name="col_100g">Per 100g</string>
+    <string name="sodium">Sodium</string>
+</resources>

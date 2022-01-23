@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="SplashActivity" parent="BaseTheme">
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_calories</item>
+        <item name="android:windowSplashScreenBackground">@android:color/holo_orange_dark</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/white</item>
+<!--        <item name="android:windowSplashScreenAnimationDuration">1000</item>-->
+    </style>
+
+</resources>
